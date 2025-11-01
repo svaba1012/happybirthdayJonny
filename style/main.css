@@ -251,11 +251,11 @@ body {
 
 @media screen and (max-width: 640px) {
   .container {
-    width: 90%;
+    /* width: 90%; */
   }
 
   .four .text-box {
-    width: 90%;
+    /* width: 90%; */
   }
 
   .text-box .fake-btn {
@@ -326,6 +326,24 @@ body {
   .six div .hat {
     top: 12.5%;
     width: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .four .text-box {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .four .text-box {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .four .text-box {
+    font-size: 0.7em;
   }
 }
 
